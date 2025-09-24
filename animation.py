@@ -7,6 +7,7 @@ from matplotlib.lines import Line2D
 def animate_path(adj, path, pos=None, interval=300, repeat=False, layout="auto", seed=42):
     G = nx.Graph()
     for u, nbrs in adj.items():
+        G.add_node(u)
         for v in nbrs.keys():
             G.add_edge(u, v)
 

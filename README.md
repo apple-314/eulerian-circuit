@@ -1,1 +1,2 @@
 # eulerian-circuit
+A eulerian circuit is a path through the graph that hits each edge exactly once and ends at the same node it started. An eulerian circuit exists for all connected graphs where all nodes have even degree. This solves for and visualizes this path.
