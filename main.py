@@ -1,3 +1,5 @@
+from animation import animate_path
+
 import copy
 
 class Graph:
@@ -122,3 +124,5 @@ s = Solver(g)
 
 path = s.solve(0)
 print(path)
+
+animate_path(adj, path)
